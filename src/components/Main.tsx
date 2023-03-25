@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Contact from "./Contact";
 import Hero from "./Hero";
 import Planets from "./Planets";
 import mainBg from "../assets/bg.jpeg";
@@ -32,6 +33,7 @@ const Main = () => {
     <Container>
       <Hero />
       <Planets />
+      <Contact />
     </Container>
   );
 };
