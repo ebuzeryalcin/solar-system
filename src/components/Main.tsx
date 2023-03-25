@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Planets from "./Planets";
 import mainBg from "../assets/bg.jpeg";
 
 const Container = styled.div`
@@ -28,6 +29,7 @@ const Container = styled.div`
 const Main = () => {
   return (
     <Container>
+      <Planets />
     </Container>
   );
 };
