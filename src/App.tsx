@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { fetchPlanets } from './redux/planets/planetsSlice';
 import Main from './components/Main';
+import Details from './components/Details';
 import { RootState, AppDispatch } from './redux/store';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/Details" element={<Details />} />
         </Routes>
       </>
     </BrowserRouter>
