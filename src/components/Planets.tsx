@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import Animation from "./Animation";
 import { Planet } from "../redux/planets/types";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
@@ -276,6 +277,7 @@ const Planets: React.FC = () => {
         </Left>
 
         <Right>
+          <Animation />
         </Right>
       </Container>
     </Section>
